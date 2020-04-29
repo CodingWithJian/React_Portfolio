@@ -1,9 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import HeaderBar from './headerBar';
+import Button from '@material-ui/core/Button';
 import './App.css';
 
-function App() {
-  return (
+function App(){
+  return(
+
+    < >
+      <HeaderBar />
+
+      <div className="edge-margin">
+        <Button variant="contained" color="primary" href="https://www.linkedin.com/in/jianxinqi/"> Jian's Linkedin </Button>
+        <Button variant="contained" color="primary" href="https://github.com/jianqi14"> Jian's GitHub </Button>
+      </div>
+
+    </>
+
+  );
+}
+
+export default App;
+
+
+
+
+
+
+/**
+    import logo from './logo.svg';
+    import './App.css';
+
     <div className="App">
       <header className="App-header">
 
@@ -23,7 +49,4 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+ */
