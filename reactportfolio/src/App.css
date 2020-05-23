@@ -1,3 +1,42 @@
-.edge-margin{
-    padding: 10px;
+.bodyItems{/*Body with padding on holding items*/
+  padding-left: 23px;
+  padding-right: 18px;
 }
+
+.button-margin{
+    padding: 12px;
+    display:table-cell;
+}
+
+.button-container{
+    margin: auto;
+    width: 30%;
+}
+
+.h-container{
+  float: right;
+}
+
+.site-footer{
+    background-color: #006199;
+    position: relative;
+    height: 60px;
+    margin-top: 22px;
+    clear: both;
+  }
+
+  .footer-centered{
+    text-align: center;
+  }
+
+  .jianImage{
+    width: 21%;
+    height: 21%;
+    border-radius: 23px;
+
+
+  }
+
+  .itemRow{
+    margin-right: 15px;
+  }
