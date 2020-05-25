@@ -7,7 +7,7 @@ function Footer() {
     return(
         <>
         <AppBar position="static">
-            <div className="theFooter">
+            <div className="textFooter">
                 <Typography variant="body1" color="inherit" align="center">
                     {'Coded + Designed by Jian Qi'}
                 </Typography>
@@ -17,8 +17,10 @@ function Footer() {
                 </Typography>
             </div>
         </AppBar>
+
         </>
     );
 }
 
 export default Footer;
+

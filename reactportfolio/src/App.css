@@ -1,6 +1,6 @@
 .bodyItems{/*Body with padding on holding items*/
-  padding-left: 23px;
-  padding-right: 18px;
+    padding-left: 23px;
+    padding-right: 18px;
 }
 
 .button-margin{
@@ -10,6 +10,7 @@
 
 .button-container{
     margin: auto;
+    padding-bottom: 8px;
     width: 30%;
 }
 
@@ -23,20 +24,38 @@
     height: 60px;
     margin-top: 22px;
     clear: both;
-  }
+}
 
-  .footer-centered{
-    text-align: center;
-  }
+.footer-centered{
+  text-align: center;
+}
 
-  .jianImage{
-    width: 21%;
-    height: 21%;
-    border-radius: 23px;
+.jianImage{
+  width: 21%;
+  height: 21%;
+  border-radius: 23px;
 
 
-  }
+}
 
-  .itemRow{
-    margin-right: 15px;
-  }
+.itemRow{
+  margin-right: 15px;
+}
+
+/*This is for the resume.js file*/
+.resumeRightSide{
+  background: #006199;
+}
+
+.resumeLeftSide{
+  background: #db7210;
+}
+
+.imageProfile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 34px;
+  height: 90%;
+  width: 50%;
+}

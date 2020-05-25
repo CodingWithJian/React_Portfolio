@@ -2,10 +2,13 @@ import React from 'react';
 import './index.css';
 import ReactDOM from 'react-dom';
 import App from './App';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
+import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
