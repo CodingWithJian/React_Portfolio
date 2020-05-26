@@ -15,17 +15,15 @@ function App(){
             <Header title="Portfolio" scroll>
                 <Navigation>
                     <Link to="/">About</Link>
-                    <Link to="/resume">Resume</Link>
                     <Link to="/skillsProjects">Skills & Projects</Link>
                     <Link to="/contacts">Contacts</Link>
                 </Navigation>
             </Header>
             <Drawer title="Title">
                 <Navigation>
-                    <a href="#">About</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Contacts</a>
+                    <Link to="/">About</Link>
+                    <Link to="/skillsProjects">Skills & Projects</Link>
+                    <Link to="/contacts">Contacts</Link>
                 </Navigation>
             </Drawer>
             <Content>
